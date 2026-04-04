@@ -34,7 +34,7 @@ ET  = pytz.timezone("America/New_York")
 
 # ── KPX API 키 ───────────────────────────────────────────────────
 # Encoding 키를 URL에 직접 삽입 → requests의 이중인코딩 방지
-_KPX_KEY_ENC = "24g7V5xi4Wvb9S3eAk6u1%2BFjKNl6i0%2FCHSrkKKAZoHJZ%2Fvw7tNfXpSmiq0bXBcnK18B0jdDRxHntUOlOek%2B2DQ%3D%3D"
+_KPX_KEY_ENC = "24g7V5xi4Wvb9S3eAk6u1%2BFjKNl6i0%2FCHSrkKKAZoHJZ%2Fvw7tNfXpSmiq0bXBcnK18B0jdDRxHntUOIOek%2B2DQ%3D%3D"
 _KPX_BASE    = "https://apis.data.go.kr/B552115/SmpWithForecastDemand/getSmpWithForecastDemand"
 
 def _kpx_url(req_date: str, num_of_rows: int = 24) -> str:
